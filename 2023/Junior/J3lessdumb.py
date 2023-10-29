@@ -1,5 +1,5 @@
 """
-I did j3 during the CCC a long time ago, and the solution was super dumb. 
+I did j3 during the CCC this year, and the solution was super dumb since i was rushing. 
 This is the less dumb version, as the old one was VERY not scalable and also slow
 """
 people = int(input())
