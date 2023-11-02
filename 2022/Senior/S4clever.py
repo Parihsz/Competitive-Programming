@@ -1,5 +1,5 @@
 # Python 3.9.4, CCC Senior 4 2022
-# Tested
+# Tested.
 
 N, C = map(int, input().split())
 
