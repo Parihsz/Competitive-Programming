@@ -1,11 +1,9 @@
 # parse inputs
 x = int(input())
-row1 = input.split()
-row2 = input.split()
+top = input().split()
+bottom = input().split()
 
-# choose data structures
-top = [].append(row1)
-bottom = [].append(row2)
+# choose data structures, and define variables
 tape = 0
 
 # apply algorithms
@@ -14,7 +12,7 @@ for i in range(x):
         tape += 3
     if bottom[i] == "1":
         tape += 3
-    if top[i] == bottom[i] and i % 2 == 0:
+    if top[i] == bottom[i] and top[i] == "1" and i % 2 == 0:
         tape -= 2
 for i in range(x-1):
     if top[i] == "1" and top[i+1] == "1":
