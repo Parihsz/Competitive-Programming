@@ -1,7 +1,6 @@
 N, M = map(int, input().split())
 grid = []
 islands = []
-
 def get_islands():
     visited = [[False]*M for _ in range(N)]
 
