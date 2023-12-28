@@ -1,7 +1,3 @@
-"""
-I did j3 during the CCC this year, and the solution was super dumb since i was rushing. 
-This is the less dumb version, as the old one was VERY not scalable and also slow
-"""
 people = int(input())
 availability = []
 same = []
@@ -26,8 +22,3 @@ for i in range(len(counts)):
         same.append(i+1)
 
 print(','.join(map(str, same)))
-
-"""
-This new solution is better and scalable
-It is still quite dumb, but I really don't have the motivation to actually make it good
-"""
