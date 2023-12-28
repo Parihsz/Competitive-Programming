@@ -1,6 +1,6 @@
 tune = input()
 output = ""
-tuned_index = 999999999
+tuned_index = 99999999
 for x in range(len(tune)):
     i = tune[x]
     if i == "+":
